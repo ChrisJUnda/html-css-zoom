@@ -3,3 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header{
+    background-color: green;
+    height: 50px;
+}
+
+main{
+    background-color: black;
+    height: calc(100vh - 125px);
+}
+
+footer{
+    background-color: blue;
+    height: 75px;
+}
+

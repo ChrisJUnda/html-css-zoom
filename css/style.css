@@ -4,13 +4,15 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: black;
+}
+
 header{
-    background-color: green;
     height: 50px;
 }
 
 main{
-    background-color: black;
     height: calc(100vh - 125px);
 }
 
@@ -19,3 +21,21 @@ footer{
     height: 75px;
 }
 
+.contenitore{
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: yellow;
+    height: 500px;
+}
+
+.riga{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.colonna-7{
+    width: calc(100% / 7);
+    height: 100px;
+    background-color: purple;
+    border: 1px solid black;
+}

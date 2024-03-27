@@ -14,6 +14,7 @@ header{
 
 main{
     height: calc(100vh - 125px);
+    overflow-y: auto;
 }
 
 footer{
@@ -24,7 +25,7 @@ footer{
 .contenitore{
     max-width: 1400px;
     margin: 0 auto;
-    background-color: yellow;
+
     height: 500px;
 }
 
@@ -35,9 +36,6 @@ footer{
 
 .colonna-7{
     width: calc(100% / 7);
-    height: 100px;
-    background-color: purple;
-    border: 1px solid black;
 }
 
 .d-flex{
@@ -57,5 +55,23 @@ footer{
     height: 75px;
     background-color: violet;
     border: 1px solid black;
+}
 
+.content{
+    padding: 0px 5px 10px 0px;
+    position: relative;
+}
+
+.content img{
+    max-width: 100%;
+}
+
+.user{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    color: white;
+    padding: 5px;
 }

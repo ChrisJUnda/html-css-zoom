@@ -10,6 +10,8 @@ body{
 
 header{
     height: 50px;
+    text-align: right;
+    padding-top: 15px;
 }
 
 main{
@@ -73,5 +75,11 @@ footer{
     background-color: rgba(0, 0, 0, 0.5);
     font-size: 18px;
     color: white;
+    padding: 5px;
+}
+
+.speaker-view{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 5px;
 }
